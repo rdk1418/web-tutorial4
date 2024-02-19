@@ -1,0 +1,33 @@
+.profile-detail-container {
+    padding: 20px;
+  }
+  
+  .profile-detail-container h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .profile-detail-container p {
+    color: #040101;
+    margin-bottom: 5px;
+  }
+  
+  .profile-image {
+    width: 100px; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+    border-radius: 50%; /* Make the image circular */
+    object-fit: cover; /* Ensure the image covers the entire container */
+    margin-bottom: 20px; /* Add spacing below the image */
+  }
+  
+  @media (max-width: 768px) {
+    .profile-detail-container {
+      padding: 10px;
+    }
+  
+    .profile-detail-container h2 {
+      font-size: 20px;
+    }
+  }
+  
